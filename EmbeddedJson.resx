@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MonitorRecords" xml:space="preserve">
+    <value>[{"MonitorID":647462,"ClientID":1,"ClientDeviceId":10030,"ResultText":null,"ResultNumeric":0.0,"ResultStatus":"0.0%","MonitorConfig":"Process|% Processor Time|#PNAME#|1140546","ExceptionMessage":null,"NextCheck":"2015-06-24T16:48:13.0435806-05:00","CheckStarted":"2015-06-24T16:47:13.0435806-05:00","ResultSeverityId":null,"SparkLineData":"0,0,0,0","MonitorTypeId":148,"Count":1,"GroupMonitorID":647467,"IntervalSeconds":60},{"MonitorID":705452,"ClientID":1,"ClientDeviceId":10030,"ResultText":null,"ResultNumeric":0.0,"ResultStatus":"0","MonitorConfig":".NET CLR Exceptions|# of Exceps Thrown|#PNAME#|OPSMANAGER","ExceptionMessage":null,"NextCheck":"2015-06-24T16:48:11.0451474-05:00","CheckStarted":"2015-06-24T16:47:11.0451474-05:00","ResultSeverityId":null,"SparkLineData":"0,0,0,0","MonitorTypeId":150,"Count":1,"GroupMonitorID":705454,"IntervalSeconds":60},{"MonitorID":647262,"ClientID":1,"ClientDeviceId":10030,"ResultText":null,"ResultNumeric":0.0,"ResultStatus":"Return code = 0","MonitorConfig":null,"ExceptionMessage":null,"NextCheck":"2015-06-24T16:48:11.0431459-05:00","CheckStarted":"2015-06-24T16:47:11.0431459-05:00","ResultSeverityId":null,"SparkLineData":"0,0,0,0","MonitorTypeId":39,"Count":1,"GroupMonitorID":647261,"IntervalSeconds":60},{"MonitorID":647253,"ClientID":1,"ClientDeviceId":10030,"ResultText":null,"ResultNumeric":0.0,"ResultStatus":"0 IO/s","MonitorConfig":null,"ExceptionMessage":null,"NextCheck":"2015-06-24T16:48:11.0431459-05:00","CheckStarted":"2015-06-24T16:47:11.0431459-05:00","ResultSeverityId":null,"SparkLineData":"0,0,0","MonitorTypeId":18,"Count":1,"GroupMonitorID":647252,"IntervalSeconds":60},{"MonitorID":647254,"ClientID":1,"ClientDeviceId":10030,"ResultText":"C:|230.2|40|142331","ResultNumeric":40.0,"ResultStatus":"40% used (142,331 MB free)","MonitorConfig":null,"ExceptionMessage":null,"NextCheck":"2015-06-24T16:48:11.0431459-05:00","CheckStarted":"2015-06-24T16:47:11.0431459-05:00","ResultSeverityId":null,"SparkLineData":"40,40,40","MonitorTypeId":5,"Count":1,"GroupMonitorID":647252,"IntervalSeconds":60},{"MonitorID":647255,"ClientID":1,"ClientDeviceId":10030,"ResultText":"C:|230.2|40|142331","ResultNumeric":142331.0,"ResultStatus":"142,331 MB free (60%)","MonitorConfig":null,"ExceptionMessage":null,"NextCheck":"2015-06-24T16:48:11.0431459-05:00","CheckStarted":"2015-06-24T16:47:11.0431459-05:00","ResultSeverityId":null,"SparkLineData":"142331,142331,142331","MonitorTypeId":6,"Count":1,"GroupMonitorID":647252,"IntervalSeconds":60},{"MonitorID":647256,"ClientID":1,"ClientDeviceId":10030,"ResultText":null,"ResultNumeric":0.0,"ResultStatus":"0 KB/s","MonitorConfig":null,"ExceptionMessage":null,"NextCheck":"2015-06-24T16:48:11.0431459-05:00","CheckStarted":"2015-06-24T16:47:11.0431459-05:00","ResultSeverityId":null,"SparkLineData":"0,0,0","MonitorTypeId":16,"Count":1,"GroupMonitorID":647252,"IntervalSeconds":60},{"MonitorID":647257,"ClientID":1,"ClientDeviceId":10030,"ResultText":null,"ResultNumeric":378.0,"ResultStatus":"378 KB/s","MonitorConfig":null,"ExceptionMessage":null,"NextCheck":"2015-06-24T16:48:11.0431459-05:00","CheckStarted":"2015-06-24T16:47:11.0431459-05:00","ResultSeverityId":null,"SparkLineData":"0,0,0,378","MonitorTypeId":17,"Count":1,"GroupMonitorID":647252,"IntervalSeconds":60},{"MonitorID":647258,"ClientID":1,"ClientDeviceId":10030,"ResultText":null,"ResultNumeric":0.0,"ResultStatus":"0","MonitorConfig":null,"ExceptionMessage":null,"NextCheck":"2015-06-24T16:48:11.0431459-05:00","CheckStarted":"2015-06-24T16:47:11.0431459-05:00","ResultSeverityId":null,"SparkLineData":"0,0,0","MonitorTypeId":21,"Count":1,"GroupMonitorID":647252,"IntervalSeconds":60},{"MonitorID":647259,"ClientID":1,"ClientDeviceId":10030,"ResultText":null,"ResultNumeric":79.0,"ResultStatus":"79%","MonitorConfig":null,"ExceptionMessage":null,"NextCheck":"2015-06-24T16:48:11.0431459-05:00","CheckStarted":"2015-06-24T16:47:11.0431459-05:00","ResultSeverityId":null,"SparkLineData":"99,99,79","MonitorTypeId":143,"Count":1,"GroupMonitorID":647252,"IntervalSeconds":60},{"MonitorID":647260,"ClientID":1,"ClientDeviceId":10030,"ResultText":null,"ResultNumeric":0.0,"ResultStatus":"0","MonitorConfig":null,"ExceptionMessage":null,"NextCheck":"2015-06-24T16:48:11.0431459-05:00","CheckStarted":"2015-06-24T16:47:11.0431459-05:00","ResultSeverityId":null,"SparkLineData":"0,0,0","MonitorTypeId":20,"Count":1,"GroupMonitorID":647252,"IntervalSeconds":60},{"MonitorID":705456,"ClientID":1,"ClientDeviceId":10030,"ResultText":null,"ResultNumeric":369.9922,"ResultStatus":"370 MB","MonitorConfig":null,"ExceptionMessage":null,"NextCheck":"2015-06-24T16:48:09.0547207-05:00","CheckStarted":"2015-06-24T16:47:09.0547207-05:00","ResultSeverityId":null,"SparkLineData":"342.13,369.52,369.99","MonitorTypeId":81,"Count":1,"GroupMonitorID":705460,"IntervalSeconds":60},{"MonitorID":705457,"ClientID":1,"ClientDeviceId":10030,"ResultText":null,"ResultNumeric":0.19,"ResultStatus":"0.2%","MonitorConfig":null,"ExceptionMessage":null,"NextCheck":"2015-06-24T16:48:09.0547207-05:00","CheckStarted":"2015-06-24T16:47:09.0547207-05:00","ResultSeverityId":null,"SparkLineData":"0,3.26,0.35,0.19","MonitorTypeId":80,"Count":1,"GroupMonitorID":705460,"IntervalSeconds":60},{"MonitorID":653850,"ClientID":1,"ClientDeviceId":10030,"ResultText":null,"ResultNumeric":1.0,"ResultStatus":"Started, Not Running","MonitorConfig":"WebApp2||NE|","ExceptionMessage":null,"NextCheck":"2015-06-24T16:48:09.0417114-05:00","CheckStarted":"2015-06-24T16:47:09.0417114-05:00","ResultSeverityId":null,"SparkLineData":"1,1,1,1","MonitorTypeId":26,"Count":1,"GroupMonitorID":653854,"IntervalSeconds":60},{"MonitorID":647268,"ClientID":1,"ClientDeviceId":10030,"ResultText":null,"ResultNumeric":null,"ResultStatus":"Not executed in last 24 hours. Last ran 6/18/2015 11:36:00 AM","MonitorConfig":null,"ExceptionMessage":null,"NextCheck":"2015-06-24T16:48:09.0417114-05:00","CheckStarted":"2015-06-24T16:47:09.0417114-05:00","ResultSeverityId":null,"SparkLineData":null,"MonitorTypeId":52,"Count":1,"GroupMonitorID":647267,"IntervalSeconds":60},{"MonitorID":705461,"ClientID":1,"ClientDeviceId":10030,"ResultText":null,"ResultNumeric":0.18,"ResultStatus":"0.2%","MonitorConfig":null,"ExceptionMessage":null,"NextCheck":"2015-06-24T16:48:07.0462799-05:00","CheckStarted":"2015-06-24T16:47:07.0462799-05:00","ResultSeverityId":null,"SparkLineData":"0,1.52,0.18","MonitorTypeId":80,"Count":1,"GroupMonitorID":705462,"IntervalSeconds":60},{"MonitorID":705463,"ClientID":1,"ClientDeviceId":10030,"ResultText":null,"ResultNumeric":94.82031,"ResultStatus":"94.8 MB","MonitorConfig":null,"ExceptionMessage":null,"NextCheck":"2015-06-24T16:48:07.0462799-05:00","CheckStarted":"2015-06-24T16:47:07.0462799-05:00","ResultSeverityId":null,"SparkLineData":"0,95.03,95.03,94.82","MonitorTypeId":81,"Count":1,"GroupMonitorID":705462,"IntervalSeconds":60},{"MonitorID":695174,"ClientID":1,"ClientDeviceId":10030,"ResultText":null,"ResultNumeric":0.0,"ResultStatus":"0","MonitorConfig":"Web Service|Total Bytes Sent|Dupe Apps","ExceptionMessage":null,"NextCheck":"2015-06-24T16:48:07.0412755-05:00","CheckStarted":"2015-06-24T16:47:07.0412755-05:00","ResultSeverityId":null,"SparkLineData":"0,0,0","MonitorTypeId":150,"Count":1,"GroupMonitorID":695177,"IntervalSeconds":60},{"MonitorID":705459,"ClientID":1,"ClientDeviceId":10030,"ResultText":null,"ResultNumeric":0.0,"ResultStatus":"0","MonitorConfig":".NET CLR Exceptions|# of Exceps Thrown|#PNAME#|SERVICEHOST","ExceptionMessage":null,"NextCheck":"2015-06-24T16:48:07.0412755-05:00","CheckStarted":"2015-06-24T16:47:07.0412755-05:00","ResultSeverityId":null,"SparkLineData":"0,0,0","MonitorTypeId":150,"Count":1,"GroupMonitorID":705460,"IntervalSeconds":60},{"MonitorID":695176,"ClientID":1,"ClientDeviceId":10030,"ResultText":null,"ResultNumeric":1.0,"ResultStatus":"Started","MonitorConfig":"Dupe Apps||NE|","ExceptionMessage":null,"NextCheck":"2015-06-24T16:48:07.0412755-05:00","CheckStarted":"2015-06-24T16:47:07.0412755-05:00","ResultSeverityId":null,"SparkLineData":"1,1,1,1","MonitorTypeId":168,"Count":1,"GroupMonitorID":695177,"IntervalSeconds":60}]</value>
+  </data>
+  <data name="MonitorRecordsMini" xml:space="preserve">
+    <value>[{"id":647462,"cid":1,"cdid":10030,"rt":null,"rn":0.0,"rs":"0.0%","mc":"Process|% Processor Time|#PNAME#|1140546","ex":null,"nc":"2015-06-24T16:48:13.0435806-05:00","cs":"2015-06-24T16:47:13.0435806-05:00","sev":null,"sp":"0,0,0,0","mt":148,"cnt":1,"gm":647467,"is":60},{"id":705452,"cid":1,"cdid":10030,"rt":null,"rn":0.0,"rs":"0","mc":".NET CLR Exceptions|# of Exceps Thrown|#PNAME#|OPSMANAGER","ex":null,"nc":"2015-06-24T16:48:11.0451474-05:00","cs":"2015-06-24T16:47:11.0451474-05:00","sev":null,"sp":"0,0,0,0","mt":150,"cnt":1,"gm":705454,"is":60},{"id":647262,"cid":1,"cdid":10030,"rt":null,"rn":0.0,"rs":"Return code = 0","mc":null,"ex":null,"nc":"2015-06-24T16:48:11.0431459-05:00","cs":"2015-06-24T16:47:11.0431459-05:00","sev":null,"sp":"0,0,0,0","mt":39,"cnt":1,"gm":647261,"is":60},{"id":647253,"cid":1,"cdid":10030,"rt":null,"rn":0.0,"rs":"0 IO/s","mc":null,"ex":null,"nc":"2015-06-24T16:48:11.0431459-05:00","cs":"2015-06-24T16:47:11.0431459-05:00","sev":null,"sp":"0,0,0","mt":18,"cnt":1,"gm":647252,"is":60},{"id":647254,"cid":1,"cdid":10030,"rt":"C:|230.2|40|142331","rn":40.0,"rs":"40% used (142,331 MB free)","mc":null,"ex":null,"nc":"2015-06-24T16:48:11.0431459-05:00","cs":"2015-06-24T16:47:11.0431459-05:00","sev":null,"sp":"40,40,40","mt":5,"cnt":1,"gm":647252,"is":60},{"id":647255,"cid":1,"cdid":10030,"rt":"C:|230.2|40|142331","rn":142331.0,"rs":"142,331 MB free (60%)","mc":null,"ex":null,"nc":"2015-06-24T16:48:11.0431459-05:00","cs":"2015-06-24T16:47:11.0431459-05:00","sev":null,"sp":"142331,142331,142331","mt":6,"cnt":1,"gm":647252,"is":60},{"id":647256,"cid":1,"cdid":10030,"rt":null,"rn":0.0,"rs":"0 KB/s","mc":null,"ex":null,"nc":"2015-06-24T16:48:11.0431459-05:00","cs":"2015-06-24T16:47:11.0431459-05:00","sev":null,"sp":"0,0,0","mt":16,"cnt":1,"gm":647252,"is":60},{"id":647257,"cid":1,"cdid":10030,"rt":null,"rn":378.0,"rs":"378 KB/s","mc":null,"ex":null,"nc":"2015-06-24T16:48:11.0431459-05:00","cs":"2015-06-24T16:47:11.0431459-05:00","sev":null,"sp":"0,0,0,378","mt":17,"cnt":1,"gm":647252,"is":60},{"id":647258,"cid":1,"cdid":10030,"rt":null,"rn":0.0,"rs":"0","mc":null,"ex":null,"nc":"2015-06-24T16:48:11.0431459-05:00","cs":"2015-06-24T16:47:11.0431459-05:00","sev":null,"sp":"0,0,0","mt":21,"cnt":1,"gm":647252,"is":60},{"id":647259,"cid":1,"cdid":10030,"rt":null,"rn":79.0,"rs":"79%","mc":null,"ex":null,"nc":"2015-06-24T16:48:11.0431459-05:00","cs":"2015-06-24T16:47:11.0431459-05:00","sev":null,"sp":"99,99,79","mt":143,"cnt":1,"gm":647252,"is":60},{"id":647260,"cid":1,"cdid":10030,"rt":null,"rn":0.0,"rs":"0","mc":null,"ex":null,"nc":"2015-06-24T16:48:11.0431459-05:00","cs":"2015-06-24T16:47:11.0431459-05:00","sev":null,"sp":"0,0,0","mt":20,"cnt":1,"gm":647252,"is":60},{"id":705456,"cid":1,"cdid":10030,"rt":null,"rn":369.9922,"rs":"370 MB","mc":null,"ex":null,"nc":"2015-06-24T16:48:09.0547207-05:00","cs":"2015-06-24T16:47:09.0547207-05:00","sev":null,"sp":"342.13,369.52,369.99","mt":81,"cnt":1,"gm":705460,"is":60},{"id":705457,"cid":1,"cdid":10030,"rt":null,"rn":0.19,"rs":"0.2%","mc":null,"ex":null,"nc":"2015-06-24T16:48:09.0547207-05:00","cs":"2015-06-24T16:47:09.0547207-05:00","sev":null,"sp":"0,3.26,0.35,0.19","mt":80,"cnt":1,"gm":705460,"is":60},{"id":653850,"cid":1,"cdid":10030,"rt":null,"rn":1.0,"rs":"Started, Not Running","mc":"WebApp2||NE|","ex":null,"nc":"2015-06-24T16:48:09.0417114-05:00","cs":"2015-06-24T16:47:09.0417114-05:00","sev":null,"sp":"1,1,1,1","mt":26,"cnt":1,"gm":653854,"is":60},{"id":647268,"cid":1,"cdid":10030,"rt":null,"rn":null,"rs":"Not executed in last 24 hours. Last ran 6/18/2015 11:36:00 AM","mc":null,"ex":null,"nc":"2015-06-24T16:48:09.0417114-05:00","cs":"2015-06-24T16:47:09.0417114-05:00","sev":null,"sp":null,"mt":52,"cnt":1,"gm":647267,"is":60},{"id":705461,"cid":1,"cdid":10030,"rt":null,"rn":0.18,"rs":"0.2%","mc":null,"ex":null,"nc":"2015-06-24T16:48:07.0462799-05:00","cs":"2015-06-24T16:47:07.0462799-05:00","sev":null,"sp":"0,1.52,0.18","mt":80,"cnt":1,"gm":705462,"is":60},{"id":705463,"cid":1,"cdid":10030,"rt":null,"rn":94.82031,"rs":"94.8 MB","mc":null,"ex":null,"nc":"2015-06-24T16:48:07.0462799-05:00","cs":"2015-06-24T16:47:07.0462799-05:00","sev":null,"sp":"0,95.03,95.03,94.82","mt":81,"cnt":1,"gm":705462,"is":60},{"id":695174,"cid":1,"cdid":10030,"rt":null,"rn":0.0,"rs":"0","mc":"Web Service|Total Bytes Sent|Dupe Apps","ex":null,"nc":"2015-06-24T16:48:07.0412755-05:00","cs":"2015-06-24T16:47:07.0412755-05:00","sev":null,"sp":"0,0,0","mt":150,"cnt":1,"gm":695177,"is":60},{"id":705459,"cid":1,"cdid":10030,"rt":null,"rn":0.0,"rs":"0","mc":".NET CLR Exceptions|# of Exceps Thrown|#PNAME#|SERVICEHOST","ex":null,"nc":"2015-06-24T16:48:07.0412755-05:00","cs":"2015-06-24T16:47:07.0412755-05:00","sev":null,"sp":"0,0,0","mt":150,"cnt":1,"gm":705460,"is":60},{"id":695176,"cid":1,"cdid":10030,"rt":null,"rn":1.0,"rs":"Started","mc":"Dupe Apps||NE|","ex":null,"nc":"2015-06-24T16:48:07.0412755-05:00","cs":"2015-06-24T16:47:07.0412755-05:00","sev":null,"sp":"1,1,1,1","mt":168,"cnt":1,"gm":695177,"is":60}]</value>
+  </data>
+</root>
